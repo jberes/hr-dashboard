@@ -54,9 +54,23 @@
               </p>
             </span>
           </igx-list-item>
-          <igx-list-item [isHeader]="false" *ngIf="listItemVisible" [igxToggleAction]="settings">
+          <igx-list-item [isHeader]="false" routerLink="/grid-view">
             <span igxListThumbnail>
               <igx-avatar shape="circle" class="avatar avatar_4">
+                <igx-icon>
+                  stars
+                </igx-icon>
+              </igx-avatar>
+            </span>
+            <span igxListLine>
+              <p class="ig-typography__subtitle-2 text_3">
+                Grid
+              </p>
+            </span>
+          </igx-list-item>
+          <igx-list-item [isHeader]="false" *ngIf="listItemVisible" [igxToggleAction]="settings">
+            <span igxListThumbnail>
+              <igx-avatar shape="circle" class="avatar avatar_5">
                 <igx-icon>
                   settings
                 </igx-icon>
