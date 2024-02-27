@@ -9,6 +9,8 @@ import { IgxCategoryChartModule } from 'igniteui-angular-charts';
 import { FormsModule } from '@angular/forms';
 import { TeamComponent } from './team/team.component';
 import { EventsComponent } from './events/events.component';
+import { ChildViewComponent } from './child-view/child-view.component';
+import { GridViewComponent } from './grid-view/grid-view.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -16,7 +18,9 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     DashboardComponent,
     TeamComponent,
-    EventsComponent
+    EventsComponent,
+    ChildViewComponent,
+    GridViewComponent
   ],
   imports: [
     BrowserModule,
